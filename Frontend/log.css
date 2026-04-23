@@ -1,0 +1,72 @@
+
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #eef2f3, #d9e2ec);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: 600;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* ===== LOGIN SECTION ===== */
+.login-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== LOGIN CARD ===== */
+.login-card {
+  width: 380px;
+  padding: 30px;
+  border-radius: 16px;
+  border: none;
+  background: white;
+}
+
+/* INPUTS */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: #203a43 ;
+  border: none ;
+  height: 45px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #1565c0 ;
+}
+
+/* FOOTER */
+.footer {
+  background: #0f2027;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}

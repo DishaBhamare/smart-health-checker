@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard | Smart Health Checker</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark px-4 shadow">
+
+<span class="navbar-brand">Smart Health Checker</span>
+
+<div class="nav-links">
+
+<a href="dashboard.html">Dashboard</a>
+
+<a href="checkSymp.html">Check Symptoms</a>
+
+<a href="profile.html">Profile</a>
+
+<a href="index.html">Home</a>
+
+<button class="btn btn-danger ms-3" onclick="logout()">Logout</button>
+
+</div>
+
+</nav>
+
+
+<!-- WELCOME SECTION -->
+
+<div class="container py-5">
+
+<div class="welcome-card">
+
+<h1 id="welcome"></h1>
+
+<p>Ready to check your health today?</p>
+
+<a href="checkSymp.html" class="btn check-btn mt-3">
+Check Symptoms
+</a>
+
+</div>
+
+
+<!-- DASHBOARD CARDS -->
+
+<div class="row mt-5">
+
+<div class="col-md-4">
+
+<div class="info-card">
+
+<h4>🩺 Health Check</h4>
+
+<p>Check symptoms and get possible health conditions instantly.</p>
+
+<a href="checkSymp.html" class="btn btn-primary btn-sm">Start</a>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="info-card">
+
+<h4>📊 Reports</h4>
+
+<p>View your previous health check reports anytime.</p>
+
+<a href="profile.html" class="btn btn-primary btn-sm">View</a>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4">
+
+<div class="info-card">
+
+<h4>👤 Profile</h4>
+
+<p>Manage your personal details and account settings.</p>
+
+<a href="profile.html" class="btn btn-primary btn-sm">Open</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- HEALTH TIPS -->
+
+<div class="tips-section mt-5">
+
+<h3 class="mb-4">Daily Health Tips</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="tip-card">
+💧 Drink at least 2–3 liters of water daily.
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="tip-card">
+🥗 Eat balanced meals with fruits and vegetables.
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="tip-card">
+🏃 Exercise at least 30 minutes every day.
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<footer class="footer text-center mt-5">
+
+<p class="mb-1">Smart Health Checker © 2026</p>
+
+<small>AI Powered Symptom Analysis Tool</small>
+
+</footer>
+
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>

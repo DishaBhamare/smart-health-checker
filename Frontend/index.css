@@ -1,0 +1,118 @@
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7f9;
+  color: #1f2937;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: 600;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 100vh;              /* full screen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(15,32,39,0.08),
+    #f4f7f9
+  );
+}
+
+.hero h1 {
+  font-size: 48px;   /* increased */
+  font-weight: 700;
+}
+
+.hero p {
+  margin-top: 15px;
+  color: #6b7280;
+  font-size: 18px;   /* slightly bigger */
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+/* ===== HERO BUTTONS FIX ===== */
+.btn-outline-primary {
+  min-width: 150px;
+  height: 42px;
+  border-radius: 8px;
+  font-weight: 600;
+
+  /* 👉 DEFAULT = FILLED (your desired look) */
+  background: #203a43 !important;
+  color: white !important;
+  border: none !important;
+}
+
+/* 👉 HOVER = darker effect */
+.btn-outline-primary:hover {
+  background: #0f2027 !important;
+  color: white !important;
+  transform: translateY(-2px);
+}
+/* ===== VALUE SECTION ===== */
+.value {
+  margin-top: -60px;   /* lifts cards upward */
+  padding: 10px 0 70px;
+  background: #f4f7f9;
+}
+.value h2 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* ===== VALUE CARDS ===== */
+.value-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+
+  border: 1px solid #2c5364;  /* permanent border */
+
+  transition: 0.3s;
+  height: 100%;
+}
+
+.value-card:hover {
+  transform: translateY(-6px);
+  border-color: #2c5364;
+}
+
+.value-card h5 {
+  color: #2c5364;
+  margin-bottom: 10px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #0f2027;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

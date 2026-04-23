@@ -1,0 +1,124 @@
+/* ========================= /
+/ TITLE /
+/ ========================= */
+
+h2{
+font-weight:600;
+color:#1f3b57;
+text-align:center;
+margin-bottom:25px;
+}
+
+/* ========================= /
+/ USER INFO /
+/ ========================= */
+
+.user-info{
+
+border-radius:18px;
+padding:20px;
+
+margin-bottom:25px;
+
+}
+
+/* ========================= /
+/ RESULT CARD /
+/ ========================= */
+
+.card{
+
+border-radius:18px;
+
+padding:20px;
+
+transition:0.25s;
+
+margin-bottom:20px;
+
+}
+
+/* hover lift */
+
+.card:hover{
+
+transform:translateY(-4px);
+
+}
+
+/* ========================= /
+/ DIAGNOSIS TITLE /
+/ ========================= */
+
+.card h5{
+
+font-weight:600;
+
+color:#1e3a8a;
+
+margin-bottom:8px;
+
+}
+
+/* ========================= /
+/ BADGE /
+/ ========================= */
+
+.badge{
+
+font-size:13px;
+
+padding:6px 12px;
+
+border-radius:20px;
+
+}
+
+/* ========================= /
+/ EMERGENCY ALERT /
+/ ========================= */
+
+#emergencyBox{
+
+font-weight:500;
+
+border-radius:10px;
+
+margin-bottom:20px;
+
+}
+
+/* ========================= /
+/ RISK COLORS /
+/ ========================= */
+
+.low{
+color:#28a745;
+font-weight:600;
+}
+
+.medium{
+color:#ffc107;
+font-weight:600;
+}
+
+.high{
+color:#dc3545;
+font-weight:600;
+}
+
+/* ========================= /
+/ MOBILE /
+/ ========================= */
+
+@media(max-width:768px){
+
+.container{
+padding:12px;
+}
+
+.card{
+padding:18px;
+}
+
+}

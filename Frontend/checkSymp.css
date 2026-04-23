@@ -1,0 +1,141 @@
+/* ========================= */
+/* SYMPTOM CARD */
+/* ========================= */
+
+.symptom-card{
+border:1px solid #2c5364;
+border-radius:18px;
+padding:35px 40px;
+
+max-width:750px;
+width:90%;
+
+margin:40px auto;
+
+text-align:left;
+
+}
+
+/* ========================= */
+/* TITLE */
+/* ========================= */
+
+.title{
+
+font-weight:700;
+color:#1f3b57;
+
+text-align:center;
+
+margin-bottom:10px;
+
+}
+
+.subtitle{
+
+color:#6c757d;
+
+font-size:14px;
+
+text-align:center;
+
+margin-bottom:30px;
+
+}
+
+/* ========================= */
+/* CHECKBOX */
+/* ========================= */
+
+.form-check{
+
+margin-bottom:16px;
+
+font-size:17px;
+
+font-weight:500;
+
+display:flex;
+
+align-items:center;
+
+cursor:pointer;
+
+padding:8px;
+
+border-radius:8px;
+
+transition:0.2s;
+
+}
+
+.form-check input{
+
+width:18px;
+height:18px;
+
+margin-right:12px;
+
+cursor:pointer;
+
+accent-color:#1e88e5;
+
+}
+
+.form-check:hover{
+
+background:rgba(0,123,255,0.08);
+
+}
+
+/* ========================= */
+/* SUBMIT BUTTON */
+/* ========================= */
+
+.btn-submit{
+
+background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+padding:12px;
+
+font-weight:600;
+
+transition:0.3s;
+
+}
+
+.btn-submit:hover{
+
+background:#1565c0;
+
+transform:translateY(-2px);
+
+}
+
+/* ========================= */
+/* CONTAINER */
+/* ========================= */
+
+.container{
+
+display:flex;
+
+justify-content:center;
+
+margin-top:60px;
+
+}
+
+.row{
+
+max-width:650px;
+
+width:auto;
+
+}

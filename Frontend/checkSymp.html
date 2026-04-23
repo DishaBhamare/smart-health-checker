@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Check Symptoms | Smart Health Checker</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="checkSymp.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+  <nav class="navbar navbar-dark px-4 shadow">
+
+  <span class="navbar-brand">Smart Health Checker</span>
+
+  <div class="nav-links">
+
+    <a href="dashboard.html" class="btn btn-outline-light me-2">Dashboard</a>
+
+    <a href="checkSymp.html" class="btn btn-outline-light me-2">Check Symptoms</a>
+
+    <a href="profile.html" class="btn btn-outline-light me-2">Profile</a>
+
+    <a href="index.html" class="btn btn-outline-light me-2">Home</a>
+
+    <button class="btn btn-danger" onclick="logout()">Logout</button>
+
+  </div>
+
+</nav>
+
+<div class="container mt-5">
+
+<div class="card symptom-card">
+
+<!-- <h3>Check Your Symptoms</h3>
+<p class="text-muted text-center">
+Select symptoms to get diagnosis
+</p> -->
+<div class="text-center mb-4">
+
+<h3 class="title">
+ Check Your Symptoms
+</h3>
+
+<p class="subtitle">
+Select symptoms below to get a possible diagnosis
+</p>
+
+</div>
+
+<div class="row mt-4 justify-content-center">
+
+<!-- LEFT COLUMN -->
+<div class="col-md-5">
+
+<div class="form-check">
+<input type="checkbox" id="headache" name="symptoms" value="headache">
+<label for="headache">Headache</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="fever" name="symptoms" value="fever">
+<label for="fever">Fever</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="cold" name="symptoms" value="cold">
+<label for="cold">Cold</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="cough" name="symptoms" value="cough">
+<label for="cough">Cough</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="fatigue" name="symptoms" value="fatigue">
+<label for="fatigue">Fatigue</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="vomiting" name="symptoms" value="vomiting">
+<label for="vomiting">Vomiting</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="diarrhea" name="symptoms" value="diarrhea">
+<label for="diarrhea">Diarrhea</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="redness" name="symptoms" value="redness">
+<label for="redness">Redness</label>
+</div>
+
+</div>
+
+
+<!-- RIGHT COLUMN -->
+<div class="col-md-5" >
+
+<div class="form-check">
+<input type="checkbox" id="sorethroat" name="symptoms" value="sore throat">
+<label for="sorethroat">Sore Throat</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="bodyache" name="symptoms" value="body ache">
+<label for="bodyache">Body Ache</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="breath" name="symptoms" value="shortness of breath">
+<label for="breath">Shortness of Breath</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="nausea" name="symptoms" value="nausea">
+<label for="nausea">Nausea</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="dizziness" name="symptoms" value="dizziness">
+<label for="dizziness">Dizziness</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="rashes" name="symptoms" value="rashes">
+<label for="rashes">Rashes</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="itching" name="symptoms" value="itching">
+<label for="itching">Itching</label>
+</div>
+
+<div class="form-check">
+<input type="checkbox" id="stomachpain" name="symptoms" value="stomach pain">
+<label for="stomachpain">Stomach Pain</label>
+</div>
+
+</div>
+
+</div>
+
+<button id="checkBtn" class="btn btn-submit mt-4 w-100">
+Check Symptoms
+</button>
+
+</div>
+
+</div>
+<footer class="footer text-center">
+  <p class="mb-1">Smart Health Checker © 2026</p>
+  <small>AI Powered Symptom Analysis Tool</small>
+</footer>
+<script>
+function logout() {
+localStorage.clear();
+window.location.href="log.html";
+}
+
+</script>
+
+<script src="checkSymp.js"></script>
+
+</body>
+</html>

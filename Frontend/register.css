@@ -1,0 +1,65 @@
+/* ========================= */
+/* REGISTER CENTER */
+/* ========================= */
+
+.register-container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:85vh;
+padding:20px;
+}
+
+/* ========================= */
+/* REGISTER CARD */
+/* ========================= */
+
+/* .register-card{
+width:100%;
+max-width:480px;
+padding:45px;
+border-radius:18px;
+} */
+ .register-card {
+  width: 380px;
+  padding: 30px;
+  border-radius: 16px;
+  border: none;
+}
+
+/* ========================= */
+/* INPUTS */
+/* ========================= */
+
+.form-control{
+border-radius:10px;
+padding:12px;
+border:1px solid rgba(0,0,0,0.1);
+}
+
+/* ========================= */
+/* INPUT FOCUS */
+/* ========================= */
+
+.form-control:focus{
+box-shadow:0 0 5px rgba(13,110,253,0.35);
+border-color:#0d6efd;
+}
+
+/* ========================= */
+/* BUTTON */
+/* ========================= */
+
+.btn-primary{
+background:#203a43;
+border:none;
+padding:12px;
+border-radius:10px;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn-primary:hover{
+background:#1565c0;
+transform:translateY(-2px);
+}

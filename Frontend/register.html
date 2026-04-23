@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Register | Smart Health Checker</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="register.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark px-4 shadow">
+  <span class="navbar-brand">Smart Health Checker</span>
+
+  <div class="nav-links">
+    <a href="Log.html">Login</a>
+  </div>
+</nav>
+
+<!-- REGISTER CONTAINER -->
+<div class="register-container">
+
+  <div class="card register-card mx-auto">
+
+    <h3 class="text-center mb-3">Create Account</h3>
+
+    <!-- ✅ ALERT INSIDE CARD -->
+    <div id="alertBox" class="alert d-none text-center"></div>
+
+    <!-- ✅ FIXED FORM -->
+    <form id="registerForm" autocomplete="off">
+
+      <div class="mb-3">
+        <input 
+          type="text" 
+          id="name" 
+          class="form-control" 
+          placeholder="Full Name"
+          autocomplete="off"
+          required>
+      </div>
+
+      <div class="mb-3">
+        <input 
+          type="email" 
+          id="email" 
+          class="form-control" 
+          placeholder="Email"
+          autocomplete="off"
+          required>
+      </div>
+
+      <div class="mb-3">
+        <input 
+          type="password" 
+          id="password" 
+          class="form-control" 
+          placeholder="Password"
+          autocomplete="new-password"
+          required>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">
+        Register
+      </button>
+
+    </form>
+
+    <p class="text-center mt-3">
+      Already have an account?
+      <a href="Log.html">Login here</a>
+    </p>
+
+  </div>
+
+</div>
+
+<footer class="footer text-center">
+  <p class="mb-1">Smart Health Checker © 2026</p>
+  <small>AI Powered Symptom Analysis Tool</small>
+</footer>
+
+<script src="register.js"></script>
+
+<!-- ✅ CLEAR AUTOFILL -->
+<script>
+window.onload = function () {
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("password").value = "";
+};
+</script>
+
+</body>
+</html>

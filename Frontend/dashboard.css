@@ -1,0 +1,132 @@
+/* ===== GLOBAL ===== */
+body {
+  background: linear-gradient(
+    to bottom,
+    #eef3f7,
+    #f4f7f9
+  );
+}
+
+/* ===== WELCOME CARD ===== */
+.welcome-card {
+  padding: 70px 45px;   /* increased top/bottom space */
+  border-radius: 20px;
+  text-align: center;
+
+  
+  /* background: linear-gradient(
+    135deg,
+    rgba(44,83,100,0.4) 0%,   /* stronger color */
+    /* rgba(44,83,100,0.15) 40%,  */
+    /* rgba(255,255,255,0.85) 100%  controlled white */
+  /* ); */ 
+   background: linear-gradient(
+    135deg,
+    rgba(44,83,100,0.08),
+    rgba(44,83,100,0.02)
+  );
+
+  border: 2px solid rgba(17, 45, 57, 0.2);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+
+  margin-bottom: 30px;
+
+  min-height: 350px;   /* ensures consistent height */
+}
+
+.welcome-card h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.welcome-card p {
+  color: #4b5563;
+}
+
+/* ===== BUTTON ===== */
+.check-btn {
+  background: #2c5364;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+    color: white;
+}
+
+.check-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+  border: 1px solid #203a43;
+}
+
+/* ===== INFO CARDS ===== */
+.info-card {
+  padding: 26px;
+  border-radius: 18px;
+  text-align: center;
+  height: 100%;
+
+  background: #fcfcfc;  /* not pure white */
+
+  border: 1px solid #2c5364;
+
+  transition: 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-6px);
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+   border: 1px solid #a4b5bd;
+}
+
+.info-card h4 {
+  color: #2c5364;
+  font-weight: 600;
+}
+
+.info-card p {
+  color: #6b7280;
+}
+.btn{
+    background: #2c5364;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 22px;
+    color: white;
+}
+
+
+/* ===== TIPS SECTION ===== */
+.tips-section {
+  padding: 60px 0;
+}
+
+/* ===== TIP CARDS ===== */
+.tip-card {
+  padding: 20px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(44,83,100,0.08),
+    rgba(44,83,100,0.02)
+  );
+
+  border: 1px solid rgba(44,83,100,0.15);
+
+  transition: 0.3s;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.9);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #0f2027;
+  color: white;
+  padding: 20px;
+}

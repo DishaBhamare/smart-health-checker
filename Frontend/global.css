@@ -1,0 +1,142 @@
+/* ========================= /
+/ GLOBAL PAGE BACKGROUND /
+/ ========================= */
+
+body{
+font-family:'Poppins','Segoe UI',sans-serif;
+
+background:
+radial-gradient(circle at 20% 20%, rgba(30,136,229,0.08), transparent 40%),
+radial-gradient(circle at 80% 70%, rgba(30,136,229,0.08), transparent 40%),
+linear-gradient(135deg,#eef2f7,#f4f7fb);
+
+min-height:100vh;
+
+}
+
+/* Smooth scrolling */
+
+html{
+scroll-behavior:smooth;
+}
+
+/* ========================= /
+/ NAVBAR /
+/ ========================= */
+
+.navbar{
+background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+padding:12px 25px;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar-brand{
+font-size:22px;
+font-weight:600;
+color:white;
+}
+
+/* navbar links */
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin-left:15px;
+font-weight:500;
+}
+
+/* remove bootstrap borders */
+
+.navbar .btn-outline-light{
+border:none;
+}
+
+.navbar a:hover{
+opacity:0.85;
+}
+
+/* ========================= /
+/ GLASS CARDS (MAIN DESIGN) /
+/ ========================= */
+
+.card,
+.dashboard-card,
+.symptom-card,
+.login-card,
+.register-card,
+.info-card,
+.tip-card,
+.history-card,
+.stat-card{
+
+background:rgba(255,255,255,0.7);
+
+backdrop-filter:blur(10px);
+
+border-radius:16px;
+
+border:1px solid rgba(255,255,255,0.4);
+
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+transition:0.3s;
+
+}
+
+/* hover lift */
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* ========================= /
+/ BUTTONS /
+/ ========================= */
+
+.btn{
+border-radius:10px;
+}
+
+/* primary */
+
+.btn-primary{
+
+background:linear-gradient(90deg,#1e88e5,#1565c0);
+
+border:none;
+
+font-weight:600;
+
+transition:0.3s;
+
+}
+
+.btn-primary:hover{
+background:#1565c0;
+transform:translateY(-2px);
+}
+
+/* ========================= /
+/ SECTION SPACING /
+/ ========================= */
+
+section{
+padding:70px 0;
+}
+
+/* ========================= /
+/ FOOTER /
+/ ========================= */
+
+.footer{
+background:#0f2027;
+color:white;
+padding:25px;
+margin-top:60px;
+font-size:14px;
+border-top:1px solid rgba(255,255,255,0.2);
+}
+
+.footer p{
+margin:0;
+}
