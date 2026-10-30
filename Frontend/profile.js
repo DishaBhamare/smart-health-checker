@@ -52,7 +52,7 @@ window.onload = async function () {
 
     // Fetch history from backend
     try {
-        const response = await fetch("http://localhost:5000/api/checks/history", {
+        const response = await fetch("https://smart-health-checker.onrender.com/api/users/history", {
             headers: {
                 "Authorization": `Bearer ${token}`
             }

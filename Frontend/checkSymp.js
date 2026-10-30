@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try {
 
-      const response = await fetch("http://localhost:5000/api/checks/check", {
+      const response = await fetch("https://smart-health-checker.onrender.com/api/users/check", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

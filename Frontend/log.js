@@ -8,7 +8,7 @@ form.addEventListener("submit", async (e) => {
   const password = document.getElementById("password").value.trim();
 
   try {
-    const response = await fetch("http://localhost:5000/api/users/login", {
+    const response = await fetch("https://smart-health-checker.onrender.com/api/users/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
